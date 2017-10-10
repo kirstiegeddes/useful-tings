@@ -1,0 +1,4 @@
+/* Ensures Images look good on IE */ 
+img { 
+    -ms-interpolation-mode: bicubic; 
+}
