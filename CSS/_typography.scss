@@ -1,0 +1,122 @@
+
+
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+
+html,
+body,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+input,
+input[type="text"],
+input[type="submit"],
+input[type=button],
+select,
+button,
+textarea{
+    font-family: 'Ubuntu' , sans-serif;
+}
+
+
+
+::-webkit-input-placeholder{
+    font-family: 'Ubuntu' , sans-serif;
+}
+::-moz-placeholder{
+    font-family: 'Ubuntu' , sans-serif;
+    opacity: 1;
+}
+:-ms-input-placeholder{
+    font-family: 'Ubuntu' , sans-serif;
+}
+:-moz-placeholder{
+    font-family: 'Ubuntu' , sans-serif;
+    opacity: 1;
+}
+
+
+/*Font sizes*/
+
+html,
+body{
+    font-size: 20px;
+}
+
+p{
+    font-size:20px;
+    margin-bottom: 20px;
+    line-height: 22px;
+}
+
+h1{
+    font-size:35px;
+    margin-bottom: 20px;
+}
+
+h2{
+    font-size:28px;
+}
+
+h3{
+    font-size:22px;
+}
+
+h4{
+    font-size:20px;
+    font-weight:bold;
+}
+
+input,
+button,
+input[type="text"],
+input[type=button],
+select,
+textarea{
+    font-size: 16px;
+}
+
+input,
+input[type="text"]{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+textarea{
+    padding:10px;
+}
+
+strong{
+    font-weight:bold;
+}
+
+@media screen and (max-width:1024px){
+    input,
+    button,
+    input[type="text"],
+    input[type=button],
+    textarea,
+    select,
+    .enquire-cta,
+    .finance-cta,
+    .sliders-cta{
+        font-size: 16px;
+    }
+    
+    ::-webkit-input-placeholder{
+        font-size:16px;
+    }
+    ::-moz-placeholder{
+        font-size:16px;
+    }
+    :-ms-input-placeholder{
+        font-size:16px;
+    }
+    :-moz-placeholder{
+        font-size:16px;
+    }
+}
+
+
